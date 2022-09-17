@@ -36,6 +36,16 @@ body {
 }
 
 
+.logo-2{
+    width: auto;
+    height: 40px;
+}
+
+
+
+
+
+
 
 
 #navbar {
@@ -144,8 +154,8 @@ body {
 
 #footer .footer-content .footer-menu .footer-menu-item:hover {
     color: #1ed760;
-    cursor: pointer; 
-    transition: all  500ms ease;
+    cursor: pointer;
+    transition: all 500ms ease;
 }
 
 
@@ -221,4 +231,47 @@ body {
     align-items: center;
     display: inline-block;
     padding-left: 10px;
+}
+
+
+
+/*responsivo*/
+
+
+@media screen and (max-width:480px){
+    #navbar{
+        width: 15px;
+    }
+
+    #Showcase .showcase-container h2{
+        text-align: center;
+    }
+
+    #Showcase .showcase-container p{
+        text-align: center;
+        width: 450px;
+        margin-bottom: 35px;
+    }
+
+    .logo-2{
+        display: none;
+    }
+
+    #footer .footer-content{
+        margin-left: -40px;
+    }
+
+    #footer .footer-content .footer-menu{
+        margin-left: 47px;
+    }
+
+    .socials{
+        margin-left: -68px;
+        display: block;
+        
+    }
+
+    .footer-info{
+        margin-left: 26px;
+    }
 }
