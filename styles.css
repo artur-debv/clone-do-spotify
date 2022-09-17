@@ -266,8 +266,7 @@ body {
     }
 
     .socials{
-        margin-left: -68px;
-        display: block;
+        display: none;
         
     }
 
