@@ -237,7 +237,6 @@ body {
 
 /*responsivo*/
 
-
 @media screen and (max-width:480px){
     #navbar{
         width: 15px;
@@ -266,6 +265,7 @@ body {
     }
 
     .socials{
+        margin-left: -68px;
         display: none;
         
     }
